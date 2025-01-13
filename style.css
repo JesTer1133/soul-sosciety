@@ -10,7 +10,7 @@ body{
     /* background-image: url(./images/All.png); */
     /* backdrop-filter:grayscale(1) blur(10px); 
     /* z-index: -1; */
-     background-color: #454545ff; 
+    background-color: color(srgb 0.515 0.515 0.515 / 0.89);  
 }
 .banner{
     position: relative;
@@ -27,6 +27,9 @@ body{
     justify-content: center;
     align-items: flex-end;
     bottom: 0;
+}
+.list > div{
+    transition: .8s ease-in-out;
 }
 .list .item1{
     position: absolute;
@@ -78,54 +81,44 @@ body{
         position: absolute;
         width: 466px;
         height: 822px;
-        left: 68vw;
+        left: 974px;
     }
     .list .item9{
         position: absolute;
-        width: 300px;
-        height: 822px;
-        left: 400px;
+        width: 267px;
+        height: 715px;
+        left: 971px;
+        z-index: 2;
     }
-    /* .list .item10{
+    .list .item10{
         position: absolute;
-        width: 466px;
-        height: 822px;
-        left: 68vw;
+        width: 291px;
+        height: 823px;
+        left: 850px;
+        z-index: 1;
     }
     .list .item11{
         position: absolute;
-        width: 466px;
-        height: 822px;
-        left: 68vw;
-    } */
+        width: 183px;
+        height: 535px;
+        left: 780px;
+        bottom: 95px;
+        }
     .list div{
         filter: grayscale(1) blur(10px);
     }
     .list:hover div:hover{
         filter: none;
     }
-    /* .banner:hover, .list:hover .item1:not(:hover){
-        filter: grayscale(1) blur(10px);
-     } */
-      /* .list:hover .item1:not(:hover){
-        filter: grayscale(1) blur(10px);
-      }
-      
-      .list:hover .item2:not(:hover){
-        filter: grayscale(1) blur(10px);
-     } 
-     .list:hover .item3:not(:hover){
-        filter: grayscale(1) blur(10px);
-     } 
-     .list:hover .item4:not(:hover){
-        filter: grayscale(1) blur(10px);
-     }
-     .list:hover .item5:not(:hover){
-        filter: grayscale(1) blur(10px);
-     }
-     .list:hover .item6:not(:hover){
-        filter: grayscale(1) blur(10px);
-     }
-     .list:hover .item7:not(:hover){
-        filter: grayscale(1) blur(10px);
-     } */
+    .yamamoto{
+        width: 100%;
+        height:850px;
+        background-image: url(./images/background-1.png);
+        background-size:cover;
+    }
+    .spark
+    {
+        width: 100%;
+        height: 850px;
+        
+    }
