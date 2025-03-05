@@ -7,9 +7,6 @@ body{
     height: 500px;
     background-size:cover;
     background-repeat: no-repeat;
-    /* background-image: url(./images/All.png); */
-    /* backdrop-filter:grayscale(1) blur(10px); 
-    /* z-index: -1; */
     background-color: color(srgb 0.515 0.515 0.515 / 0.89);  
 }
 .banner{
@@ -121,4 +118,20 @@ body{
         width: 100%;
         height: 850px;
         
+    }
+    .soi{
+        width: 100%;
+        height:850px;
+        background-image: url(./images/soi-bg.jpg);
+        background-size:cover;
+    }
+    .leaves{
+        width: 100%;
+        height: 850px;
+    }
+    .unohana{
+        width: 100%;
+        height:850px;
+        background-size:cover;
+        background-image: url(./images/unohana-bg.png);
     }
